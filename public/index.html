@@ -14,6 +14,7 @@
         body {
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -24,11 +25,29 @@
             font-size: 3rem;
             font-weight: 300;
             color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .subscribe-btn {
+            padding: 12px 32px;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .subscribe-btn:hover {
+            background-color: #555;
         }
     </style>
 </head>
 <body>
     <h1>Catherine Beaulne</h1>
+    <button class="subscribe-btn" onclick="window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'TsA5Mv']);">subscribe</button>
     <script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/V6dWE6/klaviyo.js?company_id=V6dWE6'></script>
     <script type="text/javascript"> 
     //Initialize Klaviyo object on page load
